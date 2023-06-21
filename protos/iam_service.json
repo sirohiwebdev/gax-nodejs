@@ -40,13 +40,13 @@
                       "requestType": "GetIamPolicyRequest",
                       "responseType": "Policy",
                       "options": {
-                        "(google.api.http).post": "/v1/{resource=**}:getIamPolicy",
+                        "(google.api.http).get": "/v1/{resource=**}:getIamPolicy",
                         "(google.api.http).body": "*"
                       },
                       "parsedOptions": [
                         {
                           "(google.api.http)": {
-                            "post": "/v1/{resource=**}:getIamPolicy",
+                            "get": "/v1/{resource=**}:getIamPolicy",
                             "body": "*"
                           }
                         }
